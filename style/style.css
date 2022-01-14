@@ -3,7 +3,7 @@
     --preta: #141414;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -44,9 +44,10 @@ header nav a:hover{ /* O evento hover serve para mudar de cor quando passar o mo
 }
 /* filme principal */
 
-.filme-principal{
+.filme-principal {
+ background: url('../img/capa-logo.jpg');
+
  font-size:16px;
- background: url('/img/capa-logo.jpg');
 
  height: 500px;
  background-size: cover;
@@ -87,7 +88,7 @@ header nav a:hover{ /* O evento hover serve para mudar de cor quando passar o mo
 
 .botao:hover{
     background-color: white;
-    color: rgba(243, 21, 21, 0.479);
+    color: rgba(243, 21, 21, 0.37);
 }
 
 .botoes i{
